@@ -20,7 +20,7 @@ struct Kdmonds_Karp {
         }
     }
 
-    void add_edge(int a, int b, int c) { // one-way edge 
+    void add_edge(int a, int b, int c) { // one-way edge
         //printf("add edge: (%d, %d) -> %d\n", a, b, c);
         edge[m].v = b;
         edge[m].c = c;
