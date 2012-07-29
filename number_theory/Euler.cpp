@@ -1,7 +1,7 @@
 // Euler function
 // phi[i] is the amount of numbers which are smaller and coprime to n
 // phi[i] = i * (1 - 1 / p1) * (1 - 1 / p2)  * ... * (1 - 1 / pn) 
-// pi is the prime factor of i, and phi[i] = i - 1 if i is a prime.
+// pi is the prime factor of i, and phi[i] = i - 1 if i is a primer.
 int phi[MAXN];
 
 void mkphi(int n) {
