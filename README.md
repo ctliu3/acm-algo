@@ -33,9 +33,9 @@ CODE LIST
 - MST (Kruskal Algo)
 - SCC (Tarjan Algo)
 - SCC (Kosaraju Algo)
-- Short Path (Dijkstra Algo)
-- Short Path (BellmanFord Algo)
-- Short Path (SPFA Algo)
+- Shortest Path (Dijkstra Algo)
+- Shortest Path (BellmanFord Algo)
+- Shortest Path (SPFA Algo)
 - Topological Sorting
 
 *Number Theory*
