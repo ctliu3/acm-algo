@@ -34,6 +34,8 @@ CODE LIST
 - SCC (Tarjan Algo)
 - SCC (Kosaraju Algo)
 - Short Path (Dijkstra Algo)
+- Short Path (BellmanFord Algo)
+- Short Path (SPFA Algo)
 - Topological Sorting
 
 *Number Theory*
