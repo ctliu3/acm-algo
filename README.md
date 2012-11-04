@@ -25,6 +25,10 @@ CODE LIST
 - 1-D RMQ
 - 1-D Binary Indexed Tree (BIT)
 
+*Geometry*  
+
+- Closest Pair
+
 *Graph Theory*  
 
 - Cut Point && Bridge
