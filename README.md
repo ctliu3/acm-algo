@@ -14,6 +14,10 @@ ct.Liu@buaa <lcntn3@gmail.com>
 
 CODE LIST
 ---
+*Fundamentals*
+
+- Merge Sort
+
 *Data Structure*  
 
 - Disjoint Set
