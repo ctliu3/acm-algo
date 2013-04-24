@@ -17,6 +17,7 @@ CODE LIST
 *Fundamentals*
 
 - Merge Sort
+- Matrix Multipliaction
 
 *Data Structure*  
 
@@ -37,7 +38,9 @@ CODE LIST
 
 - Cut Point && Bridge
 - Bipartite Graph Match (Hungary Algo)
+- EulerPath (/Cycle)
 - Max Flow (Edmonds Karp Algo)
+- Minimum Cost Maximum Flow
 - MST (Kruskal Algo)
 - SCC (Tarjan Algo)
 - SCC (Kosaraju Algo)
@@ -51,3 +54,10 @@ CODE LIST
 - Combination
 - Euler Function
 - Some Other Formula
+
+*Uncategorized*
+
+- (TODO) K-th Number (v1, Divide-and-Conquer sol, O(NlogN))
+- (TODO) K-th Number (v2)
+- (TODO) K-th Number (v3)
+- (TODO) K-th Number (v4, Partition Tree algo, O(NlogN) + O(logN))
