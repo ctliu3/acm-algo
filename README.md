@@ -38,7 +38,7 @@ CODE LIST
 
 - Cut Point && Bridge
 - Bipartite Graph Match (Hungary Algo)
-- EulerPath (/Cycle)
+- Euler Path (/Cycle)
 - Max Flow (Edmonds Karp Algo)
 - Minimum Cost Maximum Flow
 - MST (Kruskal Algo)

@@ -5,7 +5,7 @@
 // Different from Fleury Algorithm, the core of the algorithm is keep the graph 
 // connect when deleting a edge, unless there is no other choice. Easy to 
 // understand, but hard coding.
-class Fleury {
+class Euler {
 public:
   static const int MAXN = 205;
   static const int MAXE = 405;
