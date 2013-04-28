@@ -26,6 +26,7 @@ CODE LIST
 - Kmp  
 - LCA (Sparse Table, online algo)
 - LCA (Tarjan, offline algo)
+- Rabin Karp
 - Trie  
 - 1-D RMQ
 - 1-D Binary Indexed Tree (BIT)
