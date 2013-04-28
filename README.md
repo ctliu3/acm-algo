@@ -21,12 +21,13 @@ CODE LIST
 
 *Data Structure*  
 
+- Boyer Moore (substring search)
 - Disjoint Set
 - Heap Sort  
-- Kmp  
+- Kmp (substring search)
 - LCA (Sparse Table, online algo)
 - LCA (Tarjan, offline algo)
-- Rabin Karp
+- Rabin Karp (substring search)
 - Trie  
 - 1-D RMQ
 - 1-D Binary Indexed Tree (BIT)
