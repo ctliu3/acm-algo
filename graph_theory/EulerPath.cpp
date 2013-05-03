@@ -18,7 +18,7 @@ public:
   int n;
   int m;
 
-  explicit Fleury(vector<pair<int, int> > e, int n) { // <u, v>
+  explicit Euler(vector<pair<int, int> > e, int n) { // <u, v>
     this->n = n;
     this->m = (int)e.size();
     fill(d, d + n, 0);
