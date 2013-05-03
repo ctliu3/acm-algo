@@ -63,3 +63,4 @@ CODE LIST
 - (TODO) K-th Number (v2)
 - (TODO) K-th Number (v3)
 - (TODO) K-th Number (v4, Partition Tree algo, O(NlogN) + O(logN))
+- Permutation
