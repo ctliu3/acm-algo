@@ -23,6 +23,7 @@ CODE LIST
 
 - Boyer Moore (substring search)
 - Disjoint Set
+- Hash Table
 - Heap Sort  
 - Kmp (substring search)
 - LCA (Sparse Table, online algo)
