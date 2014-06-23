@@ -58,6 +58,12 @@ CODE LIST
 - Euler Function
 - Some Other Formula
 
+*Dynamic Programming*
+
+- Zero One Pack
+- Compete Pack
+
+
 *Uncategorized*
 
 - (TODO) K-th Number (v1, Divide-and-Conquer sol, O(NlogN))
