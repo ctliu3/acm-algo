@@ -5,17 +5,17 @@
 int phi[MAXN];
 
 void mkphi(int n) {
-    fill(phi, phi + n, 0);
-    phi[1] = 1; // * 
-    for (int i = 2; i <= n; ++i) {
-        if (!phi[i]) {
-            for (int j = i; j <= n; j += i) {
-                if (!phi[j]) {
-                    phi[j] = j;
-                }
-                // in accrod with the formula above
-                phi[j] -= phi[j] / i;
-            }
+  fill(phi, phi + n, 0);
+  phi[1] = 1; // * 
+  for (int i = 2; i <= n; ++i) {
+    if (!phi[i]) {
+      for (int j = i; j <= n; j += i) {
+        if (!phi[j]) {
+          phi[j] = j;
         }
+        // in accrod with the formula above
+        phi[j] -= phi[j] / i;
+      }
     }
+  }
 }

@@ -8,7 +8,7 @@ class RabinKarp {
   long long P; // a large prime, small enough to avoid overflow
   long long RM;
   int R; // radix
-  int m; // length of pattern  
+  int m; // length of pattern
 
   long long hash(char* key, int m) {
     long long h = 0;
