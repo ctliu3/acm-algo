@@ -1,10 +1,10 @@
 The Archive of Acm Code
 ===
-The Archive of Acm Code is my effor in my spare time. As an acmer, I love the acm competition and I am fond of  **algorithm** and **data structure**, I know how important they are. Therefore, I'll keep completing this archive:-)  
+The Archive of Acm Code is my effor in my spare time. As an acmer, I love the acm competition and I am fond of  **algorithm** and **data structure**, I know how important they are. Therefore, I'll keep completing this archive:-)
 
 Since the code in this archive will most be used in `acm`, some of them i won't wrap them with class, in consideration of convenient usage. Additional, I generally prefer to use `C++` to implement algorithm.
 
-The following is the code list, i will modify the list once i add new algorithm.  
+The following is the code list, i will modify the list once i add new algorithm.
 
 Contact me if you have any problem.
 
@@ -19,25 +19,27 @@ CODE LIST
 - Merge Sort
 - Matrix Multipliaction
 
-*Data Structure*  
+*Data Structure*
 
+- AC Automaton
 - Boyer Moore (substring search)
 - Disjoint Set
 - Hash Table
-- Heap Sort  
+- Heap Sort
 - Kmp (substring search)
 - LCA (Sparse Table, online algo)
 - LCA (Tarjan, offline algo)
 - Rabin Karp (substring search)
-- Trie  
+- Segment Tree
+- Trie 
 - 1-D RMQ
 - 1-D Binary Indexed Tree (BIT)
 
-*Geometry*  
+*Geometry*
 
 - Closest Pair
 
-*Graph Theory*  
+*Graph Theory* 
 
 - Cut Point && Bridge
 - Bipartite Graph Match (Hungary Algo)
@@ -62,7 +64,6 @@ CODE LIST
 
 - Zero One Pack
 - Compete Pack
-
 
 *Uncategorized*
 
