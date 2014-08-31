@@ -1,25 +1,23 @@
 The Archive of Acm Code
 ===
-The Archive of Acm Code is my effor in my spare time. As an acmer, I love the acm competition and I am fond of  **algorithm** and **data structure**, I know how important they are. Therefore, I'll keep completing this archive:-)
+This archive of acm code is implemented mainly by `C++`, though I like many kinds of language. 
 
-Since the code in this archive will most be used in `acm`, some of them i won't wrap them with class, in consideration of convenient usage. Additional, I generally prefer to use `C++` to implement algorithm.
-
-The following is the code list, i will modify the list once i add new algorithm.
+The following is the code list, I will modify the list once I make any modification in the code.
 
 Contact me if you have any problem.
 
 Author
 ---
-ct.Liu@buaa <lcntn3@gmail.com>
+ct.Liu@buaa <lcndn3@gmail.com>
 
 CODE LIST
 ---
-*Fundamentals*
+**Fundamentals**
 
 - Merge Sort
 - Matrix Multipliaction
 
-*Data Structure*
+**Data Structure**
 
 - AC Automaton
 - Boyer Moore (substring search)
@@ -35,41 +33,38 @@ CODE LIST
 - 1-D RMQ
 - 1-D Binary Indexed Tree (BIT)
 
-*Geometry*
+**Geometry**
 
+- Convex Hull
 - Closest Pair
 
-*Graph Theory* 
+**Graph Theory**
 
 - Cut Point && Bridge
 - Bipartite Graph Match (Hungary Algo)
-- Euler Path (/Cycle)
+- Euler Path (Cycle)
 - Max Flow (Edmonds Karp Algo)
 - Minimum Cost Maximum Flow
 - MST (Kruskal Algo)
 - SCC (Tarjan Algo)
 - SCC (Kosaraju Algo)
-- Shortest Path (Dijkstra Algo)
-- Shortest Path (BellmanFord Algo)
-- Shortest Path (SPFA Algo)
+- Dijkstra Algo
+- BellmanFord Algo
+- SPFA Algo
 - Topological Sorting
 
-*Number Theory*
+**Number Theory**
 
 - Combination
 - Euler Function
 - Some Other Formula
 
-*Dynamic Programming*
+**Dynamic Programming**
 
 - Zero One Pack
 - Compete Pack
 
-*Uncategorized*
+**Uncategorized**
 
-- (TODO) K-th Number (v1, Divide-and-Conquer sol, O(NlogN))
-- (TODO) K-th Number (v2)
-- (TODO) K-th Number (v3)
-- (TODO) K-th Number (v4, Partition Tree algo, O(NlogN) + O(logN))
 - Permutation
 - Traversal in Tree non-recursively (levelorder, preorder, inorder and postorder)

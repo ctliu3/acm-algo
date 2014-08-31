@@ -1,35 +1,45 @@
 // KMP
 
-// a, b: index from 1..n (1..m)
-bool kmp(char a[], char b[], int p[], int n, int m) {
-  int j = 0;
-  for (int i = 1; i <= n; ++i) {
-    while (j > 0 && a[i] != b[j + 1]) {
-      j = p[j];
+// pre[j] is the max value satisfying s[j-pre[j]+1..j] = s[1..pre[j]]
+void findp(const char* s, vector<int>& pre) {
+  int n = strlen(s), j = -1;
+  pre.assign(n, 0);
+
+  pre[0] = -1;
+  for (int i = 1; i < n; ++i) {
+    while (j != -1 && s[j + 1] != s[i]) {
+      j = pre[j];
     }
-    if (a[i] == b[j + 1]) { // a[i-j+1..i] = b[1..j]
+    if (s[j + 1] == s[i]) {
+      pre[i] = j + 1;
       ++j;
-    }
-    if (j == m) { // get match
-      return true;
-      // j = p[j]; // if want to get the next match
+    } else {
+      pre[i] = -1;
     }
   }
-  return false;
 }
 
-// p[j] is the max value satisfying b[j-p[j]+1..j] = b[1..p[j]]
-// b: pattern, p: array next, n: size
-void getp(char b[], int p[], int n) {
-  p[1] = 0;
-  int j = 0;
-  for (int i = 2; i <= n; ++i) {
-    while (j > 0 && b[i] != b[j + 1]) {
-      j = p[j];
+// haystack: original string, needle: pattern
+// both start from index 0
+char* kmp(char *haystack, char* needle) {
+  char* s = haystack, *p = needle;
+  int n = strlen(s);
+  int m = strlen(p);
+  vector<int> pre;
+
+  findp(p, pre);
+  int j = -1;
+  for (int i = 0; i < n; ++i) {
+    while (j != -1 && s[i] != p[j + 1]) {
+      j = pre[j];
     }
-    if (b[i] == b[j + 1]) {
+    if (s[i] == p[j + 1]) {
       ++j;
     }
-    p[i] = j;
+    if (j == m - 1) {
+      // find the answer
+      return haystack + (i - j);
+    }
   }
+  return nullptr;
 }

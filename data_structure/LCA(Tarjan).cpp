@@ -8,7 +8,7 @@ vector<int> query[MAXN];
 vector<int> e[MAXN]; // vector<pair<int, int> > if needed
 
 // color the connected component
-void dfs(int u, int id) { 
+void dfs(int u, int id) {
   color[u] = id;
   for (vector<int>::iterator itr = e[u].begin(); itr != e[u].end(); ++itr) {
     if (color[*itr] == -1) {
