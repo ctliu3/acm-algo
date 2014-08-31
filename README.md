@@ -1,8 +1,6 @@
 The Archive of Acm Code
 ===
-This archive of acm code is implemented mainly by `C++`, though I like many kinds of language. 
-
-The following is the code list, I will modify the list once I make any modification in the code.
+This archive of acm code is implemented mainly by `C++`, though I like many kinds of language. The following is the code list, I will modify the list once I make any modification in the code.
 
 Contact me if you have any problem.
 
